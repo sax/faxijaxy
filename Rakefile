@@ -5,11 +5,11 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "faxijaxy"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
-    gem.email = "esaxby@walmart.com"
+    gem.summary = %Q{Add jquery.form support to Rails 3}
+    gem.description = %Q{jquery.form requires that :js and :json file upload forms have their responses wrapped in textarea tags. This gem builds on the jaxy_file_uploads by adamlogic to add that support to Rails 3.}
+    gem.email = "sax@livinginthepast.org"
     gem.homepage = "http://github.com/sax/faxijaxy"
-    gem.authors = ["Eric Saxby"]
+    gem.authors = ["Eric Saxby", "adamlogic"]
     gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
