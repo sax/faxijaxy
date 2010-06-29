@@ -2,6 +2,16 @@ h1. FaxiJaxy
 
 This is a gem for Rails 3 that adds compatibility with the jquery.form plugin. That plugin requires that :js and :json responses to multi-part forms (i.e. file upload) be wrapped in a textarea.
 
+h1. Installation
+
+Use with bundler
+
+ gem 'faxijaxy'
+ 
+Or link directly to github
+
+ gem 'faxijaxy', :git => 'http://github.com/sax/faxijaxy.git'
+
 h1. Attribution
 
 This gem is pretty much just jaxy_file_uploads, reformatted as a gem and with Rails3 support.
