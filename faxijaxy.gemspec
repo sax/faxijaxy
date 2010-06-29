@@ -20,9 +20,12 @@ Gem::Specification.new do |s|
     ".document",
      ".gitignore",
      "LICENSE",
+     "README.textile",
      "Rakefile",
      "VERSION",
+     "faxijaxy.gemspec",
      "lib/faxijaxy.rb",
+     "rails/init.rb",
      "test/helper.rb",
      "test/test_faxijaxy.rb"
   ]
