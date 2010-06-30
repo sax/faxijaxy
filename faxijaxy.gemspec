@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{faxijaxy}
-  s.version = "0.1.0"
+  s.version = "0.2.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Eric Saxby", "adamlogic"]
@@ -19,12 +19,15 @@ Gem::Specification.new do |s|
   s.files = [
     ".document",
      ".gitignore",
+     "Gemfile",
      "LICENSE",
      "README.textile",
      "Rakefile",
      "VERSION",
      "faxijaxy.gemspec",
+     "init.rb",
      "lib/faxijaxy.rb",
+     "lib/faxijaxy/railtie.rb",
      "rails/init.rb",
      "test/helper.rb",
      "test/test_faxijaxy.rb"
