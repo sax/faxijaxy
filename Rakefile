@@ -10,6 +10,7 @@ begin
     gem.email = "sax@livinginthepast.org"
     gem.homepage = "http://github.com/sax/faxijaxy"
     gem.authors = ["Eric Saxby", "adamlogic"]
+    gem.add_dependency 'rails', '>=3.0.0.beta4'
     gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end

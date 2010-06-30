@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Eric Saxby", "adamlogic"]
-  s.date = %q{2010-06-29}
+  s.date = %q{2010-06-30}
   s.description = %q{jquery.form requires that :js and :json file upload forms have their responses wrapped in textarea tags. This gem builds on the jaxy_file_uploads by adamlogic to add that support to Rails 3.}
   s.email = %q{sax@livinginthepast.org}
   s.extra_rdoc_files = [
@@ -44,11 +44,14 @@ Gem::Specification.new do |s|
     s.specification_version = 3
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
+      s.add_runtime_dependency(%q<rails>, [">= 3.0.0.beta4"])
       s.add_development_dependency(%q<thoughtbot-shoulda>, [">= 0"])
     else
+      s.add_dependency(%q<rails>, [">= 3.0.0.beta4"])
       s.add_dependency(%q<thoughtbot-shoulda>, [">= 0"])
     end
   else
+    s.add_dependency(%q<rails>, [">= 3.0.0.beta4"])
     s.add_dependency(%q<thoughtbot-shoulda>, [">= 0"])
   end
 end
